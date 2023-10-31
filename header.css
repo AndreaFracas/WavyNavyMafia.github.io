@@ -3,6 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 3%;
+    flex-wrap: wrap;
 }
 
 a {
@@ -11,12 +12,25 @@ a {
 }
 
 .nav-links a {
-    padding: 0px 20px;
     font-weight: 600;
     font-size: 25px;
+}
+
+.nav-links {
+    width: 455px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .Icon {
     font-size: 45px;
     font-weight: 600;
+    white-space: nowrap;
+}
+
+.right-header {
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
 }
