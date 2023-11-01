@@ -1,0 +1,15 @@
+.lore-text {
+    color:black;
+    background-color: white;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.lore-box {
+    background-color: white;
+    width: 85%;
+    max-width: 900px;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin: auto;
+}

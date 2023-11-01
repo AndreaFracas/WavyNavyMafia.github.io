@@ -34,3 +34,9 @@ a {
     justify-content: space-between;
     flex-shrink: 0;
 }
+
+.left-header {
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
