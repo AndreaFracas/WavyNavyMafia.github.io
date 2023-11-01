@@ -1,0 +1,31 @@
+.stocks {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px
+}
+
+.single-stock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 30px;
+}
+
+.nome-stock {
+    width: 30%;
+}
+
+.prezzo-stock {
+    width: 30%;
+}
+
+.percentuale-stock {
+    width: auto;
+}
+
+.div-stock {
+    border-top: 1px solid;
+    border-color: lightgray;
+    width: auto;
+}
