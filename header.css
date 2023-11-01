@@ -13,7 +13,7 @@ a {
 
 .nav-links a {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 160%;
 }
 
 .nav-links {
@@ -24,7 +24,7 @@ a {
 }
 
 .Icon {
-    font-size: 45px;
+    font-size: 280%;
     font-weight: 600;
     white-space: nowrap;
 }
@@ -39,4 +39,5 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-right: 30px;
+    margin-bottom: 10px;
 }
