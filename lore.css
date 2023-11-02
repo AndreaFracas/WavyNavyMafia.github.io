@@ -13,3 +13,10 @@
     padding: 30px 30px;
     margin: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .lore-text {
+        line-height: 7.8vw;
+        font-size: 6vw;
+    }
+}

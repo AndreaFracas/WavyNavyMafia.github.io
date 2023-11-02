@@ -4,6 +4,8 @@ header {
     align-items: center;
     padding: 30px 3%;
     flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 10px;
 }
 
 a {
@@ -13,18 +15,18 @@ a {
 
 .nav-links a {
     font-weight: 600;
-    font-size: 160%;
+    font-size: 25px;
 }
 
 .nav-links {
-    width: 455px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
 .Icon {
-    font-size: 280%;
+    font-size: 45px;
     font-weight: 600;
     white-space: nowrap;
 }
@@ -38,6 +40,25 @@ a {
 .left-header {
     align-items: center;
     justify-content: space-between;
-    margin-right: 30px;
-    margin-bottom: 10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .header {
+        padding: 30px 3vw;
+    }
+    
+    .Icon {
+        font-size: 9vw;
+    }
+
+    .nav-links {
+        width: 92vw;
+    }
+
+    .nav-links a {
+        font-weight: 600;
+        font-size: 5.2vw;
+    }
 }
