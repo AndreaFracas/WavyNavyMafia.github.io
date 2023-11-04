@@ -12,24 +12,34 @@
     max-width: 900px;
     border-radius: 20px;
     padding: 35px 35px;
-    margin: auto;
+    margin: 30px auto;
 }
 
 .titolo{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 30px 20px;
-    font-size: 30px;
+    text-align: center;
 }
 
 .titolo-grande {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-top: 30px;
     font-weight: 800;
-    font-size: 45px;
+}
+
+.titolo-box {
+    width: 85%;
+    max-width: 900px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.prologo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 800;
 }
 
 @media only screen and (max-width: 500px) {
@@ -40,5 +50,26 @@
 
     .lore-box {
         padding: 6.5vw 6.5vw;
+        margin: 6vw auto;
+    }
+
+    .titolo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5.5vw;    
+    }
+
+    .titolo-grande {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 800;
+        font-size: 7vw;
+    }
+
+    .prologo {
+        margin-bottom: 6vw;
+        font-size: 7vw;
     }
 }
