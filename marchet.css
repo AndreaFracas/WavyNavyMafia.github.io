@@ -10,7 +10,8 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    height: 30px;
+    height: auto;
+    padding: 10px 0;
     margin: 0;
 }
 
@@ -50,4 +51,52 @@
 
 .red {
     color: rgb(207, 0, 0);
+}
+
+@media only screen and (max-width: 500px) {
+    
+    header {
+        justify-content: center;
+    }
+
+    .stocks p {
+        font-size: 4vw;
+        font-weight: 400;
+    }
+
+    .stocks {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        margin: 0 auto;
+        width: min-content;
+    }
+
+    .single-stock {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: auto;
+        padding: 8px 0;
+        margin: 0;
+    }
+
+    .nome-stock {
+        display: flex;
+        justify-content: start;
+        width: 40vw;
+    }
+    
+    .prezzo-stock {
+        display: flex;
+        justify-content: end;
+        width: 30vw;
+    }
+    
+    .percentuale-stock {
+        display: flex;
+        justify-content: end;
+        width: 18vw;
+    }
 }

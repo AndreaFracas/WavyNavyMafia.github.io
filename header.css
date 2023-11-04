@@ -45,8 +45,9 @@ a {
 
 @media only screen and (max-width: 500px) {
     
-    .header {
+    header {
         padding: 30px 3vw;
+        justify-content: center;
     }
     
     .Icon {
