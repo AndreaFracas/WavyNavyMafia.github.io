@@ -1,7 +1,8 @@
 .stocks {
     display: flex;
     flex-direction: column;
-    padding: 20px 20px
+    padding: 20px 20px;
+    width: min-content;
 }
 
 .single-stock {
@@ -9,23 +10,44 @@
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-    height: 30px;
+    height: 32px;
+    margin: 0;
 }
 
 .nome-stock {
-    width: 30%;
+    display: flex;
+    justify-content: start;
+    width: 232px;
 }
 
 .prezzo-stock {
-    width: 30%;
+    display: flex;
+    justify-content: end;
+    width: 116px;
 }
 
 .percentuale-stock {
-    width: auto;
+    display: flex;
+    justify-content: end;
+    width: 116px;
 }
 
 .div-stock {
     border-top: 1px solid;
     border-color: lightgray;
-    width: auto;
+}
+
+
+.stocks p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*colore prezzi*/
+.green {
+    color: rgb(17, 187, 17);
+}
+
+.red {
+    color: rgb(207, 0, 0);
 }
