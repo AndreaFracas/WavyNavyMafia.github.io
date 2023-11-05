@@ -1,3 +1,12 @@
+/*grafica layout-centrale*/
+.layout-centrale {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/*grafica degli stock*/
 .stocks {
     display: flex;
     flex-direction: column;
@@ -11,7 +20,7 @@
     align-items: center;
     flex-wrap: nowrap;
     height: auto;
-    padding: 10px 0;
+    padding: 8px 0;
     margin: 0;
 }
 
@@ -35,7 +44,7 @@
 
 .div-stock {
     border-top: 1px solid;
-    border-color: lightgray;
+    border-color: #525357;
 }
 
 
@@ -44,7 +53,70 @@
     font-weight: 500;
 }
 
+/*grafica dati a lato*/
+
+.parte-laterale {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*testi laterali*/
+
+.migliori-stock p{
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.peggiori-stock p {
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/*titoli laterali*/
+
+.migliori-stock h1{
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.peggiori-stock h1{
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+/*box laterali*/
+
+.migliori-stock {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 25px;
+    width: 430px;
+    height: fit-content;
+}
+
+.peggiori-stock {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 25px;
+    width: 430px;
+    height: fit-content;
+}
+
 /*colore prezzi*/
+
 .green {
     color: rgb(17, 187, 17);
 }
@@ -54,49 +126,118 @@
 }
 
 @media only screen and (max-width: 500px) {
+
+/*grafica degli stock*/
+
+.stocks p {
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.stocks {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin: 0 auto;
+    width: min-content;
+}
+
+.single-stock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: auto;
+    padding: 8px 0;
+    margin: 0;
+}
+
+.nome-stock {
+    display: flex;
+    justify-content: start;
+    width: 40vw;
+}
     
-    header {
-        justify-content: center;
-    }
-
-    .stocks p {
-        font-size: 4vw;
-        font-weight: 400;
-    }
-
-    .stocks {
-        display: flex;
-        flex-direction: column;
-        padding: 20px 20px;
-        margin: 0 auto;
-        width: min-content;
-    }
-
-    .single-stock {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex-wrap: nowrap;
-        height: auto;
-        padding: 8px 0;
-        margin: 0;
-    }
-
-    .nome-stock {
-        display: flex;
-        justify-content: start;
-        width: 40vw;
-    }
+.prezzo-stock {
+    display: flex;
+    justify-content: end;
+    width: 30vw;
+}
     
-    .prezzo-stock {
-        display: flex;
-        justify-content: end;
-        width: 30vw;
+.percentuale-stock {
+    display: flex;
+    justify-content: end;
+    width: 18vw;
     }
-    
-    .percentuale-stock {
-        display: flex;
-        justify-content: end;
-        width: 18vw;
-    }
+
+/*grafica layout-centrale*/
+
+.layout-centrale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*testi laterali*/
+
+.migliori-stock p{
+    color: black;
+    background-color: white;
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.peggiori-stock p {
+    color: black;
+    background-color: white;
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+/*titoli laterali*/
+
+.migliori-stock h1{
+    color: black;
+    background-color: white;
+    font-size: 5vw;
+    margin-bottom: 5px;
+}
+
+.peggiori-stock h1{
+    color: black;
+    background-color: white;
+    font-size: 5vw;
+    margin-bottom: 5px;
+}
+
+/*parte laterale*/
+.parte-laterale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+/*box laterali*/
+
+.migliori-stock {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 25px;
+    width: auto;
+    height: fit-content;
+}
+
+.peggiori-stock {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px 25px;
+    width: auto;
+    height: fit-content;
+}
 }
