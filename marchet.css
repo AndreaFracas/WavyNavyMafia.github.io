@@ -63,14 +63,7 @@
 
 /*testi laterali*/
 
-.migliori-stock p{
-    color: black;
-    background-color: white;
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.peggiori-stock p {
+.stat-stock p{
     color: black;
     background-color: white;
     font-size: 22px;
@@ -79,14 +72,7 @@
 
 /*titoli laterali*/
 
-.migliori-stock h1{
-    color: black;
-    background-color: white;
-    font-size: 25px;
-    margin-bottom: 5px;
-}
-
-.peggiori-stock h1{
+.stat-stock h1{
     color: black;
     background-color: white;
     font-size: 25px;
@@ -95,17 +81,7 @@
 
 /*box laterali*/
 
-.migliori-stock {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
-    padding: 25px 25px;
-    width: 430px;
-    height: fit-content;
-}
-
-.peggiori-stock {
+.stat-stock {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -179,16 +155,19 @@
     gap: 30px;
 }
 
-/*testi laterali*/
 
-.migliori-stock p{
-    color: black;
-    background-color: white;
-    font-size: 4vw;
-    font-weight: 500;
+/*parte laterale*/
+
+.parte-laterale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
 }
 
-.peggiori-stock p {
+/*testi laterali*/
+
+.stat-stock p{
     color: black;
     background-color: white;
     font-size: 4vw;
@@ -197,41 +176,16 @@
 
 /*titoli laterali*/
 
-.migliori-stock h1{
+.stat-stock h1{
     color: black;
     background-color: white;
     font-size: 5vw;
     margin-bottom: 5px;
-}
-
-.peggiori-stock h1{
-    color: black;
-    background-color: white;
-    font-size: 5vw;
-    margin-bottom: 5px;
-}
-
-/*parte laterale*/
-.parte-laterale {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 20px;
 }
 
 /*box laterali*/
 
-.migliori-stock {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 20px;
-    padding: 25px 25px;
-    width: auto;
-    height: fit-content;
-}
-
-.peggiori-stock {
+.stat-stock {
     display: flex;
     flex-direction: column;
     background-color: white;
