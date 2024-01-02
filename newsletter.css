@@ -1,0 +1,57 @@
+/*whole thing*/
+.news-letter {
+    padding: 10px 3%;
+}
+
+/*news title*/
+.news-title{
+    padding-bottom: 15px;
+}
+
+.letterbox {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+/*news box fr fr*/
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 20px;
+    min-width: 180px;
+    max-width: 200px;
+}
+
+/*news text*/
+.news p {
+    background-color: white;
+}
+
+.main {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 500px) {
+
+.news-title {
+    font-size: 6.5vw;
+}
+
+.main {
+    font-size: 5vw;
+}
+
+}

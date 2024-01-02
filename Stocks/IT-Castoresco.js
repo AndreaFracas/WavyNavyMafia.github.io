@@ -5,7 +5,7 @@ var myChart = new Chart(ctx, {
         labels: ['Set', 'Ott', 'Nov', 'Dic', 'Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu', 'Lug', 'Ago'],
         datasets: [{
             label: 'Prezzo',
-            data: [7050, 7150, 7150],
+            data: [0.01, 0.01, 0.005],
             backgroundColor: [
                 'rgba(85,85,85, 1)'
 
