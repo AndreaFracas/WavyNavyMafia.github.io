@@ -1,4 +1,4 @@
-var ctx = document.getElementById('Er-Mescione').getContext('2d');
+var ctx = document.getElementById('Mescione').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {

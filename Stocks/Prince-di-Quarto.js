@@ -1,4 +1,4 @@
-var ctx = document.getElementById('Prince-di-Quarto').getContext('2d');
+var ctx = document.getElementById('Principe').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
