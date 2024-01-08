@@ -1,4 +1,4 @@
-var ctx = document.getElementById('batmanChart').getContext('2d');
+var ctx = document.getElementById('Giada').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {

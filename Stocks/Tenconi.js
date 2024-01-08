@@ -1,4 +1,4 @@
-var ctx = document.getElementById('lineChart').getContext('2d');
+var ctx = document.getElementById('Tenconi').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
